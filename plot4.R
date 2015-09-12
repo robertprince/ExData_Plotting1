@@ -19,7 +19,7 @@ with(subsetdata, {
   lines(Sub_metering_2, type = "l", col =  "red", ylab = NULL)
   lines(Sub_metering_3, type = "l", col =  "blue", ylab = NULL)
   axis(1, at=c(0, 1440, 2880), labels=c("Thu", "Fri", "Sat"))
-  legend("topright", pch = "-", col = c("black", "red", "blue"), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
+  legend("topright", lty = 1, col = c("black", "red", "blue"), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
   plot(Voltage, type = "l", xaxt = "n", xlab = "datetime", ylab = "Voltage")
   axis(1, at=c(0, 1440, 2880), labels=c("Thu", "Fri", "Sat"))
   plot(Global_reactive_power, type = "l", xaxt = "n", xlab = "datetime", ylab = "Global_reactive_power")
