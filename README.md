@@ -1,3 +1,5 @@
+## This is my submission for the Exploratory Data Analysis Course Assignment 1 described below 
+
 ## Introduction
 
 This assignment uses data from
